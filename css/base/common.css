@@ -41,7 +41,7 @@ a {
     line-height: 1.333;
     letter-spacing: 0.04em;
     text-decoration: none;
-    color: #2E2F42;
+    color: var(--navy-blue);
 }
 
 button {
@@ -61,6 +61,14 @@ img {
     text-transform: capitalize;
     color: var(--navy-blue);
     margin-bottom: 72px;
+}
+
+.card-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--navy-blue);
+    margin-bottom: 8px;
 }
 
 .text {

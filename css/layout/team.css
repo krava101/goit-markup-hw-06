@@ -20,14 +20,6 @@
     padding: 32px 0;
 }
 
-.team-card-header{
-    color: var(--navy-blue);
-    font-size: 20px;
-    line-height: 1.2;
-    font-weight: 500;
-    margin-bottom: 8px;
-}
-
 .team-media-list{
     display: flex;
     justify-content: center;
