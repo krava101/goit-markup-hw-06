@@ -16,9 +16,8 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--gray);
     background-color: #fff;
-
 }
 
 h1,
@@ -52,4 +51,18 @@ button {
 img {
     display: block;
     max-width: 100%;
+}
+
+.section-header {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    color: var(--navy-blue);
+    margin-bottom: 72px;
+}
+
+.text {
+    line-height: 1.5;
 }
