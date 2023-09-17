@@ -52,7 +52,7 @@
     background-color: #404BBF;
 }
 
-@media screen and (max-width: 676px) {
+@media screen and (max-width: 767px) {
     .team-list{
         flex-direction: column;
         gap: 72px;
