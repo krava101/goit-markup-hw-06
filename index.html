@@ -53,6 +53,7 @@
           </ul>
         </nav>
         <button class="open-mobile-menu-btn" type="button">
+          <label class="mobile-menu-open-label" for="mobile-menu-open"></label>
           <svg class="open-mobile-menu-icon" width="24" height="24">
             <use href="images/icons.svg#icon-open-mobile-menu"></use>
           </svg>
@@ -76,9 +77,14 @@
     <main>
       <!-- Hero -->
       <section class="hero">
-        <div class="container">
+        <div class="hero-container container">
           <h1 class="page-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="hero-button">Order Service</button>
+          <div class="hero-btn-wrapper">
+            <button type="button" class="hero-button">Order Service</button>
+            <label class="backdrop-open-label" for="backdrop-open"
+              >Order Service</label
+            >
+          </div>
         </div>
       </section>
       <!-- Benefits Section -->
@@ -574,11 +580,20 @@
         </div>
       </div>
     </footer>
-    <!-- <input class="backdrop-open" type="radio" name="backdrop-switch" /> -->
+    <!-- For open backdrop&modal -->
+    <input
+      class="backdrop-open"
+      type="radio"
+      name="backdrop-switch"
+      id="backdrop-open"
+    />
+    <!-- /For open backdrop&modal -->
     <!-- Backdrop & modal window -->
-    <!-- <div class="backdrop">
+    <div class="backdrop">
       <div class="modal">
+        <!-- For close backdrop&modal -->
         <input class="backdrop-close" type="radio" name="backdrop-switch" />
+        <!-- /For close backdrop&modal -->
         <button class="close-btn" type="button">
           <svg class="close-btn-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
@@ -651,16 +666,34 @@
                   <use href="./images/icons.svg#icon-checkbox"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="modal-link" href="">Privacy Policy</a>
+              <div class="modal-checkbox-text-wrapper">
+                <p>I accept the terms and conditions of the</p>
+                <a class="modal-link" href=""> Privacy Policy</a>
+              </div>
             </label>
           </div>
           <button class="modal-btn" type="submit">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
     <!-- Mobile menu -->
+    <!-- For open menu -->
+    <input
+      class="mobile-menu-open"
+      type="radio"
+      name="mobile-menu-switch"
+      id="mobile-menu-open"
+    />
+    <!-- /For open menu -->
     <div class="mobile-menu">
+      <!-- For close menu -->
+      <input
+        class="mobile-menu-close"
+        type="radio"
+        name="mobile-menu-switch"
+        id="mobile-menu-close"
+      />
+      <!-- /For close menu -->
       <button class="close-mobile-menu-btn" type="button">
         <svg class="close-mobile-menu-icon" width="8" height="8">
           <use href="./images/icons.svg#icon-close"></use>
