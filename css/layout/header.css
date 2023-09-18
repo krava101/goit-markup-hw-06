@@ -83,6 +83,7 @@
 .address-list {
     display: flex;
     gap: 40px;
+    font-style: normal;
 }
 
 .contact-nav-links {
