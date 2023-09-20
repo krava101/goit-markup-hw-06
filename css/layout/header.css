@@ -105,6 +105,10 @@
         outline: none;
     }
 
+    .logo{
+        margin-right: 0;
+    }
+
     .header-list, .contact-nav{
         display: none;
     }
@@ -132,6 +136,7 @@
         top: 0;
         left: 0;
         display: flex;
+        justify-content: space-between;
         flex-direction: column;
         z-index: 9999999;
         width: 100%;
@@ -168,10 +173,6 @@
         outline: none;
     }
 
-    .mobile-menu-nav{
-        margin-bottom: 168px;
-    }
-
     .mobile-menu-list{
         display: flex;
         flex-direction: column;
@@ -187,7 +188,8 @@
         transition: color 250ms var(--transition-speed);
     }
 
-    .mobile-menu-nav-link:focus{
+    .mobile-menu-nav-link:focus,
+    .mobile-menu-nav-link:hover{
         color: var(--ocean);
     }
 
@@ -214,8 +216,9 @@
         color: var(--gray);
     }
 
-    .mobile-menu-address-link:focus{
-        color: var(--iris);
+    .mobile-menu-address-link:focus,
+    .mobile-menu-address-link:hover{
+        color: var(--ocean);
     }
 
     .mobile-menu-media-list{

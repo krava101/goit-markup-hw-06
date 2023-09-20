@@ -288,13 +288,6 @@
     fill: #fff;
 }
 
-.hero-btn-wrapper {
-    position: relative;
-    width: 170px;
-    height: 56px;
-    margin: 0 auto;
-}
-
 .backdrop-open-label {
     position: absolute;
     top: 0;

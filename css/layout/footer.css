@@ -120,8 +120,9 @@
 }
 
 @media  screen and (min-width: 768px) and (max-width: 1157px) {
+
     .footer-container{
-        padding: 0 108px;
+        width: 552px;
     }
 
     .footer-logo-media-wrapper{
@@ -142,17 +143,11 @@
 
     .footer-container {
         display: flex;
+        gap: 80px;
     }
 
     .footer-logo-media-wrapper{
         display: flex;
-    }
-
-    .footer-info{
-        margin-right: 120px;
-    }
-
-    .footer-media-wrapper{
-        margin-right: 80px;
+        gap: 120px;
     }
 }
