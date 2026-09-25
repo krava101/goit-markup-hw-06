@@ -22,7 +22,7 @@
   display: none;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px){
+@media screen and (min-width: 768px) and (max-width: 1157px){
   .features {
     padding: 96px 0;
   }
@@ -38,7 +38,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1158px) {
   .features {
     padding: 120px 0;
   }

@@ -135,7 +135,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1158px) {
   .footer .container {
     display: flex;
     flex-direction: row;
