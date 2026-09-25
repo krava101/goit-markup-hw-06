@@ -20,7 +20,7 @@
   opacity: 1;
 }
 
-.mobile-menu > div{
+.mobile-menu > div {
   width: 100%;
   height: 100%;
   display: flex;
@@ -105,6 +105,10 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+
+.menu-address-link.iris {
+  color: var(--iris);
 }
 
 .menu-address-link:hover,
