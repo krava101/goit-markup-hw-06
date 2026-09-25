@@ -1,0 +1,143 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --navy-blue: #2e2f42;
+  --white: #fff;
+  --cloude: #f4f4fd;
+  --gray: #2e2f42;
+  --dairy: #fcfcfc;
+  --navy-blue-modal: rgb(46, 47, 66, 0.4);
+  --cornflower: #e7e9fc;
+  --green: #31d0aa;
+  --transition: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+  background-color: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+.container {
+  max-width: 1158px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.icon {
+  display: block;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo span {
+  color: var(--iris);
+}
+
+.header-medium {
+  color: var(--navy-blue);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.header-small {
+  color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.btn-txt {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.txt-small {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+}
+
+.sr-only {
+  position: absolute;
+  pointer-events: none;
+  opacity: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.social-list {
+  display: flex;
+  gap: 24px;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+  background-color: var(--iris);
+  border-radius: 50%;
+  transition: background-color 250ms var(--transition);
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--ocean);
+}
+
+.social-icon {
+  display: block;
+  color: var(--cloude);
+}

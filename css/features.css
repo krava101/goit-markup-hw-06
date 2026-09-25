@@ -1,0 +1,25 @@
+.features {
+  padding: 120px 0;
+  background-color: var(--white);
+}
+
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+
+.features .header-small {
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.features-icon-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;
+  background: var(--cloude);
+  margin-bottom: 8px;
+}
