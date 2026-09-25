@@ -18,11 +18,15 @@
   line-height: 1.11;
 }
 
+.features-card p {
+  font-weight: 500;
+}
+
 .features-icon-wrap {
   display: none;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1157px){
+@media screen and (min-width: 768px) and (max-width: 1157px) {
   .features {
     padding: 96px 0;
   }
@@ -38,6 +42,12 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  .features .header-small {
+    text-align: left;
+  }
+}
+
 @media screen and (min-width: 1158px) {
   .features {
     padding: 120px 0;
@@ -48,10 +58,18 @@
     gap: 24px;
   }
 
+  .features-card{
+    flex-basis: calc((100% - 24px * 3) /4);
+  }
+
   .features .header-small {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+  }
+
+  .features-card p {
+    font-weight: 400;
   }
 
   .features-icon-wrap {
