@@ -1,14 +1,18 @@
 .team {
-  padding: 120px 0;
+  padding: 96px 0;
   background-color: var(--cloude);
 }
 
 .team-list {
   display: flex;
-  gap: 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 72px;
 }
 
 .team-card {
+  width: 264px;
   background-color: var(--white);
   border-radius: 0px 0px 4px 4px;
   box-shadow:
@@ -23,4 +27,27 @@
   flex-direction: column;
   gap: 8px;
   align-items: center;
+}
+
+@media screen and (min-width: 768px){
+   .team {
+    padding: 96px 0;
+  }
+
+  .team-list {
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 64px 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .team {
+    padding: 120px 0;
+  }
+
+  .team-list {
+    flex-direction: row;
+    gap: 24px;
+  }
 }
