@@ -54,9 +54,9 @@ address {
 }
 
 .container {
-  max-width: 1158px;
+  max-width: 767px;
   width: 100%;
-  padding: 0 15px;
+  padding: 0 16px;
   margin: 0 auto;
 }
 
@@ -140,4 +140,17 @@ address {
 .social-icon {
   display: block;
   color: var(--cloude);
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 1158px;
+    padding: 0 15px;
+  }
 }
