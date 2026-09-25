@@ -9,9 +9,9 @@
   height: 100vh;
 
   background-color: var(--navy-blue-modal);
-  opacity: 0;
+  /* opacity: 0;
   pointer-events: none;
-  visibility: hidden;
+  visibility: hidden; */
   transition: opacity 250ms var(--transition);
 }
 
@@ -25,10 +25,10 @@
   display: flex;
   flex-direction: column;
   align-items: end;
-  max-width: 408px;
-  max-height: 582px;
+  max-width: 288px;
+  max-height: 619px;
   width: 100%;
-  padding: 24px;
+  padding: 24px 16px;
 
   border-radius: 4px;
   box-shadow:
@@ -45,6 +45,7 @@
   width: 24px;
   height: 24px;
   padding: 0;
+  margin-right: 8px;
 
   border: 1px solid var(--navy-blue-modal);
   border-radius: 50%;
@@ -66,7 +67,7 @@
 }
 
 .modal .close-btn:hover .close-icon,
-.modal .close-btn:focus .close-icon{
+.modal .close-btn:focus .close-icon {
   color: var(--white);
 }
 
@@ -79,12 +80,14 @@
 }
 
 .modal-form {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .input-wrap {
+  width: 100%;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -108,7 +111,7 @@
 
 .modal-form input,
 .modal-form textarea {
-  width: 360px;
+  width: 100%;
   height: 40px;
   padding: 8px 38px;
 
@@ -128,7 +131,6 @@
 
 .modal-form textarea {
   resize: none;
-  width: 360px;
   height: 120px;
   padding: 8px 16px;
 
@@ -187,7 +189,7 @@
   opacity: 0;
 }
 
-.modal-check{
+.modal-check {
   color: #8e8f99;
   font-size: 12px;
   line-height: 1.17;
@@ -253,4 +255,16 @@
 .modal-btn:hover,
 .modal-btn:focus {
   background-color: var(--ocean);
+}
+
+@media screen and (min-width: 768px) {
+  .modal {
+    padding: 24px;
+    max-width: 408px;
+    max-height: 582px;
+  }
+
+  .modal-btn {
+    margin: 0;
+  }
 }
