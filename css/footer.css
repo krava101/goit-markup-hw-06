@@ -43,14 +43,17 @@
 
 /* FOOTER FORM */
 
+.footer-form-wrap{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .footer-form-header {
   margin-bottom: 16px;
   font-weight: 500;
   color: var(--white);
-}
-
-.footer-form-wrap{
-  width: 100%;
 }
 
 .footer-form {
